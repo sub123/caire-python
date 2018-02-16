@@ -5,6 +5,7 @@ import math
 
 
 def brg2gray(pixel):
+	#because opencv uses brg
 	return (math.floor(0.114*pixel[0]+0.299*pixel[1]+0.587*pixel[2]))
 
 img = cv.imread('test.jpg',cv.IMREAD_COLOR)
