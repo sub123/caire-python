@@ -39,6 +39,8 @@ def sobel():
 				magnitude=0
 			elif magnitude>255:
 				magnitude=255
+			if magnitude<threshold:
+				magnitude=0
 			sobel[i][j]=magnitude
 	plt.imshow(sobel,cmap='gray',interpolation='bicubic')
 	plt.show()
