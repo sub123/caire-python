@@ -5,5 +5,7 @@ It is in no way complete.
 
 Use at your own risk.
 
+Paper: https://inst.eecs.berkeley.edu/~cs194-26/fa16/hw/proj4-seamcarving/imret.pdf
+
 License
 MIT
